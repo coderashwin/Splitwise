@@ -30,3 +30,7 @@ Splitwise-frontend/android/app/release
 # Java crash logs
 hs_err_pid*.log
 replay_pid*.log
+
+# Untracked
+Splitwise-frontend/android/build/
+
