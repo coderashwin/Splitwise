@@ -1,0 +1,32 @@
+# OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Node.js (backend)
+Splitwise-backend/node_modules/
+Splitwise-backend/dist/
+Splitwise-backend/coverage/
+Splitwise-backend/*.env
+Splitwise-backend/.env
+!Splitwise-backend/.env.example
+Splitwise-backend/*.pem
+Splitwise-backend/private.pem
+Splitwise-backend/public.pem
+
+# Flutter/Dart (frontend)
+Splitwise-frontend/.dart_tool/
+Splitwise-frontend/.flutter-plugins-dependencies
+Splitwise-frontend/.pub-cache/
+Splitwise-frontend/.pub/
+Splitwise-frontend/build/
+Splitwise-frontend/coverage/
+Splitwise-frontend/.idea/
+Splitwise-frontend/*.iml
+Splitwise-frontend/android/app/debug
+Splitwise-frontend/android/app/profile
+Splitwise-frontend/android/app/release
+
+# Java crash logs
+hs_err_pid*.log
+replay_pid*.log
